@@ -1,0 +1,259 @@
+/*8 significa todas as tags*/
+/*importando a fontes Krona One e Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/*criando vaiaveis globais(vale pra tudo) já as locaisé sp orpra uma tag especiofica*/
+:root{
+    /*permite algterar tema da pagina mais facilmente*/
+    --cor-primaria:#0F0E0E;
+   --cor-segundaria:#232D3F;
+    --cor-tercearia:#8B9A46;
+    --cor-hover:#005B41;
+    --font-primaria:'Krona One', sans-serif; ;
+    --font-secundaria:'Montserrat', sans-serif;
+    /*--font-tercearia :'Arial black';*/
+--cor-quartearia:rgba(213,109,201,100);
+
+}
+/*fim das varivaveis*/
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*sem acento prorque pode dar bug*/
+.apresentacao {
+    /*o 1º valor em cima e me baio , 2ªa lateral */
+    /*
+ 
+    */
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.titulo-destaque {
+    color: var(--cor-tercearia)
+
+}
+
+
+
+
+.apresentacao_conteudo_titulo {
+    /*tamanho da letra*/
+    font-size: 36px;
+    font-family: var(--font-primaria)
+
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family:var(--font-secundaria);
+
+
+
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao__links_link {
+    /* background-color: #22D4FD;*/
+    border: 1px solid  var(--cor-tercearia);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 24px;
+    /*1º valor defimene em cima e embaixo o u segundo dos lados*/
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-segundaria);
+    font-family: var(--font-secundaria);
+
+    /*fund transprente*/
+    /*ajustadno links*/
+    display: flex;
+    justify-content: center;
+
+    /*espaçamento*/
+    gap: 16px;
+}
+
+.apresentacao__links_link:hover {
+    /*quando passar o mouse em cima ::hover */
+    background-color:var(--cor-hover);
+    /*em Alura HTMLCSS Cabecalho-footer-variaveis css
+    tinha que personalizar no meu caso eu pus o curso de + com setas de todos os lados
+    e aumenta a letra quando maopuse em cima
+    */
+    cursor: all-scroll;
+
+    font-size: -webkit-xxx-large;
+}
+
+/*3 [ semana do Alura
+*/
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    /*espaçamento*/
+    gap: 40px;
+}
+
+
+.apresentacao_conteudo_subtitulo {
+
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+body {
+
+    /*define height:  altura;*/
+    /* height: 100vh; */
+    box-sizing: border-box;
+    /*altura = 100% da altura da tela*/
+    background-color:var(--cor-primaria);
+    color:var(--cor-segundaria);
+}
+
+.rodape {
+    color: var(--cor-primaria);
+    background-color:var(--cor-tercearia);
+    text-align: center;
+    font-family:var(--font-secundaria) ;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+/*controla o cabeçario
+*/
+
+
+
+.cabecario_menu_link {
+
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-tercearia);
+    text-decoration: none;
+}
+
+.cabecario_menu {
+    display: flex;
+    padding: 0px;
+    /*Gap separa*/
+    gap: 80px;
+}
+
+.cabecario {
+    padding: 2% 0% 0% 15%;
+}
+
+
+.apresentacao_imagem{
+width: 232.065;
+    height: 18pc;}
+    .apresentacao_imagem_logo{
+     
+    width: 100%;
+    height: 100%;
+
+    }
+
+.curriculotitulo{
+    /*tituço preto com letra Calibre 16px*/
+   /* font-family: Calibri;*/
+    font-size: large;
+
+  /*  color:#000000;*/
+}
+.curriculosubtitulo{
+  /*  font-family: Calibri;*/
+font-size: medium;
+/*padding: 0% 28.5%;*/
+    /* font-size: 10px;*/
+
+}
+.curriculoapresentacao{
+align-items: self-start;
+text-align: justify;
+
+}
+.rodapesobremim{
+
+    margin: 57% 0% 0% 0%;
+    flex: none;
+}
+.rodapecurriculo{
+    margin: 0% 0% 0% 0%;
+    flex: none;
+    border: 1px solid
+}
+.select{
+   -style:"bold";
+   /* font-size: 13.2px;*/
+   /* margin-left:10 px';*/
+ /*  font-family:var(--font-secundaria) ;*/
+
+    COLOR:rgba(225,225,225,100);
+    background-COLOR:var(--cor-quartearia);
+    
+    }
+    .botaoretangular{
+  
+        width: 606.254;
+        height: 32.75;
+        margin: 16px;
+        border: 2px solid;
+    
+    }
+
+   .zoom_body{
+        /*corrigindo progmra de tela  desconfigura*/
+            zoom:75%;
+            
+            margin-top: 8px;
+        
+        }
+        
+/*
+.bordaetextoazuis{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}*/
+/*
+referencias bibliograficas 
+https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121112
+https://www.w3schools.com/CSSref/sel_hover.php
+
+https://www.w3schools.com/css/css_padding.asp
+*/
