@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!--muda o a imagem da pagina--->
+	<link rel="icon" type="image/png" href="favicon.png">
+	<title>
+
+	</title>
+
+	<style>
+
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--titulo-->
+	<title>Sobre mim</title>
+	<meta name="generator" content="LibreOffice 7.1.2.2 (Windows)" />
+	<meta name="created" content="2021-08-02T12:42:47.125000000" />
+	<meta name="changed" content="2021-08-02T12:45:53.437000000" />
+	<!--abixo truqe pra indequisa siite primeiro-->
+	<meta name="author" content="eduardo">
+	<meta name="keyworks" content=" ,buscador">
+	<meta name="description" content="site falso do google">
+
+	<!--usando biblioteca boostrap pra site falso-->
+	<link rel="stylesheet" type="text/css" href=".\css\bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href=".\css\bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css"
+		href=".\css\bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css.map">
+	<link rel="stylesheet" type="text/css"
+		href=".\css\bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\jquery-ui-1.12.1\jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\jquery-ui-1.12.1\jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\jquery-ui-1.12.1\jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\jquery-ui-1.12.1\jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="menuclasse.css">
+
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<!--	<script src="calculadora2023posVal.js"></script>
+-->
+	<script src="Pegarvariaveis.js"></script>
+
+
+
+
+
+</head>
+
+
+
+<body class="conteiner-fluid">
+	<!--
+//https://www.delftstack.com/pt/howto/javascript/ascii-to-hex-using-javascript/
+
+<p>derivado do modelo https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_concat_string na web 
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/content
+https://emojiterra.com/pt/clipes-de-papel/
+//https://pt.stackoverflow.com/questions/172749/como-transformar-string-em-array-de-caracteres
+https://desenvolvimentoparaweb.com/html/html5-inputs-novos-tipos-campos/
+-->
+
+	<header class="cabecario">
+		<nav class="cabecario_menu">
+			<a class="cabecario_menu_link" href="index.html">Home</a>
+			<a class="cabecario_menu_link" href="AboutMe.html">Sobre mim</a>
+			<a class="cabecario_menu_link" href="curriculo.html">Curriculo</a>
+			<a class="cabecario_menu_link" href="Paginameusfilmesfavoritos.html">Filmes prediletos</a>
+		</nav>
+	</header>
+	<section>
+		<main>
+			<!--<center>-->
+
+			<div style="width: 10%;">
+				<!--o form foi pmodifiacodo em 4/12/2021 pra ter tag form--->
+				<form action="incluir.php" encriptype="multipart/formdate" autocomplete="on" accept-charset="utf-8">
+					<h2 class="curriculosubtitulo">e-mail:</h2>
+					<input type="email" autocomplete="on" id="campo" required value="">
+					<h2 class="curriculosubtitulo">senha:</h2>
+					<input id="campo2" name='campo2' onchange=" validarsenhaforte(campo2)" autocomplete='on' value="">
+					<!--compara a´te os 8 caraecters pra ver se tem numero acima e abaixo checa ate oito careacters dse tem numero
+--> <input type="button" value="gerar senha forte" onclick="campo2.value=gerarsenhaforte()  ">
+					<input id="campo3" required type="date" placeholder="00/00/0000" autocomplete="on" value=""
+						type="text">
+					<meter value='0' id="senhaforca" max="3"></meter>
+				
+					<!--mostrar senha--->
+					<!--senha forte checa-->
+					<!--
+			data
+			o campo de data nõ a pode ser datetime-local pq sql não suporta caracter especial por isos ganmbiara com campo de numero-->
+
+					<!--
+
+<!--<img class="" width="60" height="60" title="https://www.pexels.com/pt-br/foto/foto-do-clipe-de-papel-roxo-sobre-fundo-verde-3690543/" src="pexels-ann-h-3690543.jpg"> 
+--><input id="campo4" autocomplete="on" required title="identificador" placeholder="identificador"  value="" type="number">
+
+					<h2 class="curriculosubtitulo">Cor Preferida</h2>
+					<input id="campo5" autocomplete="on" required value="" type="color">
+					<h2 class="curriculosubtitulo">insira sua foto</h2>
+					<input id="campo7" accept="image/*" autocomplete="on" required capture type="file">
+					<!--CAMPO DE DINHEIRO-->
+
+					<h2 class="curriculosubtitulo">Insira a mesada dos seus pais</h2>
+
+					<input id="campo6" autocomplete="on" style="top: 26px;" value="0" class="card" type="NUMBER"
+						step="0.01">
+					<b  class=" .titulo-destaque card-title">R$</b>
+					<button type="submit">ENVIAR</button>
+
+				</form>
+				<main>
+				</main>
+				<script>
+
+				</script>
+
+
+				<script src="./carhartl-jquery-cookie-92b7715/jquery.cookie.js">
+				</script>
+				<script src="./meucookiecomJquery.js">
+
+				</script>
+
+
+				<script type="text/javascript" src="jquery.complexify.js"> </script>
+
+				<script src="calculadora2023posVal.js"></script>
+
+				<!--
+& =and
+| =or
+<span id="campo2minimocarateres" >X</span>mínimo de 8 carateres<br>
+<b id="campo2.letramaiuscula">X </b>letra minuscula<br>
+<b id="campo2.letraminuscula">X </b>letra maiuscula<br>
+<b id="campo2.caracterespecial">X </b>caracter especial<br>
+<b id="campo2.numero">X </b>número
+https://www.w3schools.com/tags/att_input_type_email.asp
+https://boxy-svg.com/app
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept
+				-->
+</body>
