@@ -1,4 +1,4 @@
-# Guithub uma rede social de programadores etc
+# Github uma rede social de programadores etc
 ## Site do Eduardo mostrando meu curriculo
 
 [![N|Solid](https://media.licdn.com/dms/image/C5603AQF5IIcHqnHTzA/profile-displayphoto-shrink_200_200/0/1640979605318?e=1702512000&v=beta&t=ux7h4wwv-r1u5wdG7KmRD_DYtwGceTka6CViE5dThbQ)](https://br.linkedin.com/in/eduardo-s-c)
