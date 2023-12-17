@@ -15,8 +15,8 @@ recognition.addEventListener('result',onSpeak)
 
 function onSpeak(e) {
     //pegando o texto reconhemento
-
     console.log(e.results[0][0].transcript)
+
 }
 //}
 
