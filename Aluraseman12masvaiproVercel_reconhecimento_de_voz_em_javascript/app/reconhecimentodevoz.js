@@ -1,22 +1,28 @@
 
 //try {
-    
+const elementoChute=document.getElementById('chute')
 ///reconhecimento de audio 
 window.SpeechRecognition = window.webkitSpeechRecognition  ||webkitSpeechRecognition;
 const recognition=new SpeechRecognition();
-
 //idioma do Ai de reconhecimneto de voz
 recognition.lang='pt-Br'
 
 recognition.start()
-
-
 recognition.addEventListener('result',onSpeak)
 
 function onSpeak(e) {
-    //pegando o texto reconhemento
-    console.log(e.results[0][0].transcript)
+    //pegando o texto reconhecido
+    chute=e.results[0][0].transcript
+    //console.log(chute)
+exibeChuteNaTela(chute)
+}
 
+function exibeChuteNaTela(chute) {
+    elementoChute.innerHTML=`
+    <div>    Você disse:    </div>
+    <span class="box">${chute}</span>
+    
+    `
 }
 //}
 
