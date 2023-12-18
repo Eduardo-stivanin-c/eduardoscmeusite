@@ -10,14 +10,10 @@ function    verificaSeChutePossueValorValido(chute) {
     elementoChute.innerHTML+="<div>Valor inválido</div>";
 
 
-<<<<<<< HEAD
-  
- 
- 
-=======
+
  } 
 
->>>>>>> a51ead1cbc74bd113320b1457c900b712bf7a1be
+
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
  
@@ -58,6 +54,8 @@ function chuteForInvalido(numero) {
 function numeroForMaiorOuMenorQueOValorPermitido(numero) {
     return numero>maiorValor||numero <menorValor
 }
+
+
 
 
 
