@@ -1,4 +1,4 @@
-const gambiara=document.getElementsByClassName("box")[0];
+const gambiara=document.getElementsByClassName("box");
 
 
 
