@@ -2,10 +2,18 @@
 
 function    verificaSeChutePossueValorValido(chute) {
     //number é gambaira do Eduardo pra ter compatilbilidade com Edge
- const numero=+Number(chute)
- if (chuteForInvalido(numero)) {
-  elementoChute.innerHTML+="<div>Valor inválido</div>";
- }  
+ const numero=+Number(chute);
+
+
+
+
+ if (chuteForInvalido(numero) ) {
+
+
+    elementoChute.innerHTML+="<div>Valor inválido</div>";
+
+
+  
 
  
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
