@@ -6,14 +6,14 @@ function    verificaSeChutePossueValorValido(chute) {
  if (chuteForInvalido(numero)) {
     console.log("Valor inválido")
  }  
- 
+
  
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
  
     
 
-console.log(`valor inválido:o número secreto precisa estar entre ${menor-valor} e ${maior-valor}`)
+console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor} e ${maiorValor}`)
 
  }
 }
