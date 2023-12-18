@@ -10,8 +10,7 @@ function    verificaSeChutePossueValorValido(chute) {
     elementoChute.innerHTML+="<div>Valor inválido</div>";
 
 
-  
-
+ } 
  
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
@@ -27,14 +26,10 @@ console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor}
 //let condicao=(numero==numeroSecreto ||numero==numeroSecreto+'.' )
 //console.log(condicao)
     if(numero==numeroSecreto){
-
 //se condição é valida
-
-    document.body.innerHTML=`
-
-
-<h2>Você acertou!</h2>
-<h3>O número secreto era ${numeroSecreto}</h3>
+     document.body.innerHTML=`
+     <h2>Você acertou!</h2>
+     <h3>O número secreto era ${numeroSecreto}</h3>
 `
  }
 
