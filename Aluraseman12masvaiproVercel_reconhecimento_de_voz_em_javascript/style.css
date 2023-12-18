@@ -11,7 +11,7 @@
 
 /* preto de 
   r g b 
-#272829
+#272829 fundo
 
 tiro o azul pra simular filtro de luz azul diminuindo cansaço não sei se funciona ana no cançaso visual
 */
@@ -32,6 +32,10 @@ body{
 
 h1{
     font-size: 5em;
+}
+h2{
+    font-size: 4em;
+    
 }
 h3{
     font-size: 2em;
