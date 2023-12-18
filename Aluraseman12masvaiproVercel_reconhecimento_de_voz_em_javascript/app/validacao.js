@@ -58,7 +58,8 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 
 
 
-
+//gambiara de eduardo
+planoB()
 
 
 
