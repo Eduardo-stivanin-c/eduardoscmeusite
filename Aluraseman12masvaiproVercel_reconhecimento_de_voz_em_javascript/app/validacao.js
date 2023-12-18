@@ -54,6 +54,9 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 }
 
 
+
+
+
 function planoB(){
-    
+
 }
