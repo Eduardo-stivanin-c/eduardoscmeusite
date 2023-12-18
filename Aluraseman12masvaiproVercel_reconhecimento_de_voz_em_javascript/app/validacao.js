@@ -10,8 +10,14 @@ function    verificaSeChutePossueValorValido(chute) {
     elementoChute.innerHTML+="<div>Valor inválido</div>";
 
 
+<<<<<<< HEAD
+  
+ 
+ 
+=======
  } 
 
+>>>>>>> a51ead1cbc74bd113320b1457c900b712bf7a1be
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
  
@@ -57,6 +63,13 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 
 
 
-function planoB(){
 
+
+
+
+let gambiara=document.getElementsByClassName("box")
+function planoB(){
+    if (gambiara[0].innerHTML==String(numeroSecreto+'.')) {
+        
+    }
 }
