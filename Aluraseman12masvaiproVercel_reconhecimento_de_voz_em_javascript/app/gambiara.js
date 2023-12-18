@@ -2,15 +2,15 @@ const gambiara=document.getElementsByClassName("box");
 
 
 
-/*
+
 
 
 function planoB(){
-    if (gambiara.innerHTML +numero==String(numeroSecreto+'.') ||gambiara.innerHTML==String(numeroSecreto)) {
+    if (gambiara[0].innerHTML==String(numeroSecreto[15]+numeroSecreto[16]+numeroSecreto[17]+".") || numeroSecreto[15]+numeroSecreto[16]+numeroSecreto[17] ) {
         document.body.innerHTML=`<h2>Você acertou!</h2> <h3>O número secreto era ${numeroSecreto}</h3>` 
     
     }
 
     return "<h2>Você acertou!</h2> <h3>O número secreto era"  + numeroSecreto+ "</h3>";
 
-}*/
+}
