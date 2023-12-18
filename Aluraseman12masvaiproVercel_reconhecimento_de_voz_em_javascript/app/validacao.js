@@ -67,9 +67,4 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 
 
 
-var gambiara=document.getElementsByClassName("box")
-function planoB(){
-    if (gambiara[0].innerHTML==String(numeroSecreto+'.')) {
-        0
-    }
-}
+
