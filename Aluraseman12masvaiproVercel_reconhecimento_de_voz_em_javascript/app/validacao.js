@@ -4,9 +4,6 @@ function    verificaSeChutePossueValorValido(chute) {
     //number é gambaira do Eduardo pra ter compatilbilidade com Edge
  const numero=+Number(chute);
 
-
-
-
  if (chuteForInvalido(numero) ) {
 
 
@@ -32,6 +29,15 @@ document.body.innerHTML=`
 `
  }
 }
+
+
+};
+
+
+
+
+
+
 
 function chuteForInvalido(numero) {
     return Number.isNaN(numero)
