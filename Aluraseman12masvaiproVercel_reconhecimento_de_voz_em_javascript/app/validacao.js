@@ -22,7 +22,9 @@ console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor}
 
  }
 
- if(numero===numeroSecreto){
+ // o ou é adapatação minha pro Edge
+    //condiçaáo Google chrome condição edge 
+ if(numero===numeroSecreto ||numero==numeroSecreto+'.' ){
 document.body.innerHTML=`
 <h2>Você acertou!</h2>
 <h3>O número secreto era ${numeroSecreto}</h3>
