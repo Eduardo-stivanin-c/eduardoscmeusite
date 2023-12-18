@@ -10,7 +10,9 @@ function    verificaSeChutePossueValorValido(chute) {
     elementoChute.innerHTML+="<div>Valor inválido</div>";
 
 
+
  } 
+
 
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
@@ -57,6 +59,10 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 
 
 
-function planoB(){
 
-}
+
+
+
+
+
+
