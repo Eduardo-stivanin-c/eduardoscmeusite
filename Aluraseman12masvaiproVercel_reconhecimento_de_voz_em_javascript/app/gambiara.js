@@ -1,6 +1,6 @@
 const gambiara=document.getElementsByClassName("box");
 
-
+let numero=gambiara[0]
 
 
 
@@ -12,6 +12,8 @@ function planoB(){
     }
   return "<h2>Você acertou!</h2> <h3>O número secreto era"  + numeroSecreto+ "</h3>";
 
+
+
 }
 
-planoB()
+//planoB()
