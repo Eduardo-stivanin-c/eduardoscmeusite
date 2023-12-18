@@ -12,6 +12,7 @@ return "Número Secreto:" + parseInt(Math.random() * maiorValor+1)
 }
 
 //vincula a varivoel deminimo emaximao com o valor na tela
+
 const elementoMenorValor=document.getElementById('menor-valor')
 elementoMenorValor.innerHTML=menorValor
 const elementoMaiorValor=document.getElementById('maior-valor')
