@@ -52,3 +52,8 @@ function chuteForInvalido(numero) {
 function numeroForMaiorOuMenorQueOValorPermitido(numero) {
     return numero>maiorValor||numero <menorValor
 }
+
+
+function planoB(){
+    
+}
