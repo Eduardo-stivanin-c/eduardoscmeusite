@@ -23,13 +23,14 @@ console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor}
 
  }
 
+
  // o ou é adapatação minha pro Edge
     //condiçaáo Google chrome condição edge 
 //let condicao=(numero==numeroSecreto ||numero==numeroSecreto+'.' )
 //console.log(condicao)
 //gambiara de eduardo
-planoB()
-/*
+
+
 if(numero===numeroSecreto){
 //se condição é valida
      document.body.innerHTML=`
@@ -37,9 +38,6 @@ if(numero===numeroSecreto){
      <h3>O número secreto era ${numeroSecreto}</h3>
 `
  }
-*/
-
-
 
 
 };
