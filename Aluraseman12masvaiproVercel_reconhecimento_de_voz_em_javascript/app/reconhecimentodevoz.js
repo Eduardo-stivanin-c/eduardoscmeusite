@@ -14,14 +14,16 @@ function onSpeak(e) {
     //pegando o texto reconhecido
     chute=e.results[0][0].transcript
     //console.log(chute)
-exibeChuteNaTela(chute)
+
+    exibeChuteNaTela(chute)
+    verificaSeChutePossueValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
     elementoChute.innerHTML=`
     <div>    Você disse:    </div>
     <span class="box">${chute}</span>
-    
+
     `
 }
 //}
