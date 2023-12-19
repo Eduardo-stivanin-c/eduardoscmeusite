@@ -9,7 +9,7 @@ function    verificaSeChutePossueValorValido(chute) {
 
     elementoChute.innerHTML+="<div>Valor inválido</div>";
 
-
+return
 
  } 
 
@@ -38,8 +38,19 @@ if(numero===numeroSecreto){
      <h3>O número secreto era ${numeroSecreto}</h3>
 `
  }
+else if (numero > numeroSecreto) {
+   // esse i é formatado pra ser seta pra cima 
+elementoChute.innerHTML+=`
+<div>O numero secreto é menor <i class="fa-solid fa-arrow-down"></i> </div>
 
-
+`
+}
+else{
+    elementoChute.innerHTML+=`
+    <div>O numero secreto é maior <i class="fa-solid fa-arrow-up"></i> </div>
+    
+    `   
+}
 
 };
 
