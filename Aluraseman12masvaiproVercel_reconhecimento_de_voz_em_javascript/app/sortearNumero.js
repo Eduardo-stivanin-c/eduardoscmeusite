@@ -1,15 +1,17 @@
 "use strick"
-console.log("estou aqui")
+
 const menorValor=1
 const maiorValor=1000
 const numeroSecreto=gerarNumeroAleatorio()
 // número aleatório entre 0 e 100 
-console.log(numeroSecreto)
+//console.log(numeroSecreto)
 //numeor pseudoaleatório inseguro
 function gerarNumeroAleatorio() {
     
-return "Número Secreto:" + parseInt(Math.random() * maiorValor+1)
+return   parseInt(Math.random() * maiorValor+1)
+
 }
+console.log("Número Secreto:",numeroSecreto)
 
 //vincula a variavel deminimo emaximao com o valor na tela
 

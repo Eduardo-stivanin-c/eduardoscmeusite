@@ -6,8 +6,7 @@ function    verificaSeChutePossueValorValido(chute) {
 
  if (chuteForInvalido(numero) ) {
 
-
-    elementoChute.innerHTML+="<div>Valor inválido</div>";
+ elementoChute.innerHTML+="<div>Valor inválido</div>";
 
 return
 
@@ -16,22 +15,20 @@ return
 
  if (numeroForMaiorOuMenorQueOValorPermitido(numero)) 
  {
- 
-    
+    elementoChute.innerHTML += `
 
-console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor} e ${maiorValor}`)
+    <div>Valor inválido: Fale um número entre ${menorValor} e ${maiorValor}</div>
 
+    `
+    return 
  }
-
-
  // o ou é adapatação minha pro Edge
     //condiçaáo Google chrome condição edge 
-//let condicao=(numero==numeroSecreto ||numero==numeroSecreto+'.' )
+
 //console.log(condicao)
 //gambiara de eduardo
 //recebe objeto na tela
-numero=gambiara[0]
-
+//numero=gambiara[0]
 if(numero.innerHTML===String(numeroSecreto+".")){
 //se condição é valida
      document.body.innerHTML=`
@@ -39,7 +36,6 @@ if(numero.innerHTML===String(numeroSecreto+".")){
      <h3>O número secreto era ${numeroSecreto}</h3>
 `
  }
-
  
 else if (numero > numeroSecreto) {
    // esse i é formatado pra ser seta pra cima 
@@ -56,12 +52,6 @@ else{
 }
 };
 
-
-recognition.addeve
-
-
-
-
 function chuteForInvalido(numero) {
     return Number.isNaN(numero)
 }
@@ -71,8 +61,7 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 }
 
 
-//quando evento end fim recognition.começar
-recognition.addEventListener("end",()=>recognition.start())
+
 
 
 

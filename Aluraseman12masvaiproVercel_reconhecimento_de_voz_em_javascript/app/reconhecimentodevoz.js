@@ -1,5 +1,5 @@
 
-//try {
+
 const elementoChute=document.getElementById('chute')
 ///reconhecimento de audio 
 window.SpeechRecognition = window.webkitSpeechRecognition  ||webkitSpeechRecognition;
@@ -13,26 +13,23 @@ recognition.addEventListener('result',onSpeak)
 function onSpeak(e) {
     //pegando o texto reconhecido
     chute=e.results[0][0].transcript
-    //console.log(chute)
+    
 
     exibeChuteNaTela(chute)
-    verificaSeChutePossueValorValido(chute)
+    verificaSeChutePossuiUMValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
     elementoChute.innerHTML=`
-    <div>    Você disse:    </div>
+    <div>    Você disse    </div>
     <span class="box">${chute}</span>
 
     `
 }
 //}
+//quando evento end fim recognition.começar
+recognition.addEventListener("end",()=>recognition.start())
 
-
-
-/*catch (erro) {
-    console.log="não há suporte a reconhecimento de fala desse site no seu navegador"
-}*/
 
 
 
