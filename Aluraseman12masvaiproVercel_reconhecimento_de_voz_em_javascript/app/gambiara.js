@@ -16,4 +16,4 @@ function planoB(){
 
 }
 
-//planoB()
+planoB()

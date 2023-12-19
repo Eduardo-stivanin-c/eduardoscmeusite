@@ -38,6 +38,8 @@ if(numero===numeroSecreto){
      <h3>O número secreto era ${numeroSecreto}</h3>
 `
  }
+
+ /*
 else if (numero > numeroSecreto) {
    // esse i é formatado pra ser seta pra cima 
 elementoChute.innerHTML+=`
@@ -51,7 +53,7 @@ else{
     
     `   
 }
-
+*/
 };
 
 
