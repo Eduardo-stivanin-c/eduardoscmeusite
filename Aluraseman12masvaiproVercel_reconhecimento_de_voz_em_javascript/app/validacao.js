@@ -1,5 +1,5 @@
 //validacao.js
-
+"use strick"
 function    verificaSeChutePossueValorValido(chute) {
     //number é gambaira do Eduardo pra ter compatilbilidade com Edge
  const numero=Number(chute);
