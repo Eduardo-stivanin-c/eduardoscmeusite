@@ -71,6 +71,8 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 }
 
 
+//quando evento end fim recognition.começar
+recognition.addEventListener("end",()=>recognition.start())
 
 
 
