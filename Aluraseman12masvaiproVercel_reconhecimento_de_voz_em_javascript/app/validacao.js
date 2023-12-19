@@ -39,7 +39,7 @@ if(numero===numeroSecreto){
 `
  }
 
- /*
+ 
 else if (numero > numeroSecreto) {
    // esse i é formatado pra ser seta pra cima 
 elementoChute.innerHTML+=`
@@ -53,7 +53,6 @@ else{
     
     `   
 }
-*/
 };
 
 
