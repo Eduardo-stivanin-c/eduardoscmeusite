@@ -1,6 +1,6 @@
 const gambiara=document.getElementsByClassName("box");
 
-//let numero=gambiara[0]
+let numero=gambiara[0]
 
 
 
