@@ -29,9 +29,9 @@ console.log(`Valor inválido:o número secreto precisa estar entre ${menorValor}
 //let condicao=(numero==numeroSecreto ||numero==numeroSecreto+'.' )
 //console.log(condicao)
 //gambiara de eduardo
-
-
-if(numero===numeroSecreto){
+//recebe objeto na tela
+numero=gambiara[0]
+if(numero.innerHTML===String(numeroSecreto+".")){
 //se condição é valida
      document.body.innerHTML=`
      <h2>Você acertou!</h2>
